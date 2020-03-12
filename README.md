@@ -1,2 +1,2 @@
 # GreatWorkplace
-Page made only with CSS
+Page made with CSS
