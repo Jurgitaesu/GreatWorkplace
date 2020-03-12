@@ -1,0 +1,223 @@
+/******************
+CSS RESET 
+******************/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/******************
+GENERAL 
+*******************/
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main-center {
+    margin: 0 auto;
+    width: 700px;
+    padding-bottom: 20px;
+}
+
+/******************
+HEADER 
+******************/
+
+header {
+    color: white;
+}
+
+.header-photo {
+    background-image: url(../IMG/laptops.jpg);
+    background-size: cover;
+}
+
+.header-background {
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+}
+
+.layer {
+    background-color: rgba(153, 141, 119, .8);
+}
+
+h4 {
+    text-align: left;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    font-size: 1.9em;
+    font-family: 'Alegreya', serif;
+}
+
+header i {
+    font-size: 2.5em;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Alegreya', serif;
+}
+
+header p {
+    font-size: 1em;
+}
+
+.Visit-us {
+    background-color: rgba(91, 84, 71);
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 18px;
+    margin: 20px 0 40px 0;
+
+}
+
+/*********************
+NAVIGATION 
+*********************/
+
+nav {
+    background-color: #FFA8A7;
+    color: white;
+    font-size: 1.7em;
+}
+
+
+nav li {
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    width: 220px;
+}
+
+nav ul {
+    text-align: center;
+    padding: 10px 10px;
+
+}
+
+nav i {
+    padding-bottom: 10px;
+    display: block;
+}
+
+nav h5 {
+    font-size: 1em;
+    font-family: 'Alegreya', serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: #503E3F;
+    font-size: 0.7em;
+
+}
+
+
+/*********************
+MAIN 
+*********************/
+
+img {
+    border-radius: 10px;
+
+}
+
+main article {
+    color: black;
+    text-align: left;
+    padding-top: 10px;
+
+}
+
+main section {
+    background-image: url(../IMG/main.jpg);
+    background-color: rgba(255, 255, 255, .8);
+    background-size: cover;
+
+}
+
+main h2 {
+    color: #676A69;
+    padding: 10px 0 10px 0;
+    font-family: 'Alegreya', serif;
+}
+
+main p {
+    color: #616664;
+}
+
+.read-more {
+    background-color: #FFA8A7;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 18px;
+    margin: 20px 0 10px 0;
+}
+
+.books-background {
+    background-image: url(../IMG/main.jpg);
+    background-size: cover;
+}
+
+.layer2 {
+    background-color: rgba(255, 255, 255, .95);
+}
+
+/*********************
+FOOTER
+*********************/
+
+footer {
+    background-color: #FFA8A7;
+    color: white;
+    text-align: center;
+
+}
+
+footer section div {
+    display: inline-block;
+    width: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.left {
+    text-align: left;
+    width: 370px;
+    margin-right: 10px;
+
+}
+
+.right {
+    text-align: left;
+    width: 370px;
+    margin-left: 10px;
+
+}
+
+.far {
+    padding-right: 10px;
+}
+
+footer h5 {
+    margin: 5px 0 10px auto;
+    font-size: 20px;
+}
+
+.author {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
